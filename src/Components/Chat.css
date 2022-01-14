@@ -1,0 +1,46 @@
+.Chat {
+  margin: 1rem 0;
+  color: #fff;
+  padding: 1rem;
+  background: linear-gradient(50deg, #1986d8, #7b9cc2);
+  max-width: 90%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.Chat.is_user_msg {
+  position: relative;
+  margin-left: auto;
+  background: #2b2c33;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  cursor: pointer;
+}
+
+/* On hover show the x to delete the chat */
+.Chat.is_user_msg:hover .Chat__delete {
+  display: inline-block;
+}
+
+.Chat__delete {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  line-height: 1.4rem;
+  font-size: 0.8rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media (min-width: 576px) {
+  .Chat {
+    max-width: 60%;
+  }
+}
