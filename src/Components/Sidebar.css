@@ -1,5 +1,5 @@
 .Sidebar {
-  width: 80px;
+  width: 80px; /* just wide enough to display profile img*/
   background-color: rgba(32, 32, 35, 1);
   height: 100%;
   border-right: 1px solid rgba(189, 189, 192, 0.1);
@@ -7,7 +7,7 @@
   overflow-y: scroll;
 }
 
-/* for larger devices */
+/* for larger devices make the sidebar wider*/
 @media (min-width: 576px) {
   .Sidebar {
     width: 320px;
