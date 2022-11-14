@@ -39,8 +39,6 @@ export function generateUser() {
   return {
     name: faker.name.findName(),
     email: faker.internet.email(),
-    //faker avatar() doesn't work
-    // profile_pic: faker.image.avatar(), 
     profile_pic: generator.generateRandomAvatar(),
     status: txtgen.sentence(),
     user_id: shortid.generate()
