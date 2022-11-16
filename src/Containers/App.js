@@ -6,6 +6,8 @@ import store from '../store';
 
 
 function App() {
+  //Retrieve contacts list, user and activeUserId from Redux store
+  //So they can be passed down as props to Sidebar and Main
   const { contacts, user, activeUserId } = store.getState();
   return (
     <div className="App">
