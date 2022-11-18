@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Skypey/static/css/main.bfde5fea.css",
-    "main.js": "/Skypey/static/js/main.27364615.js",
-    "static/js/787.3bff67e5.chunk.js": "/Skypey/static/js/787.3bff67e5.chunk.js",
-    "index.html": "/Skypey/index.html",
-    "main.bfde5fea.css.map": "/Skypey/static/css/main.bfde5fea.css.map",
-    "main.27364615.js.map": "/Skypey/static/js/main.27364615.js.map",
-    "787.3bff67e5.chunk.js.map": "/Skypey/static/js/787.3bff67e5.chunk.js.map"
+    "main.css": "/skypey/static/css/main.bfde5fea.css",
+    "main.js": "/skypey/static/js/main.2d3ab647.js",
+    "static/js/787.3bff67e5.chunk.js": "/skypey/static/js/787.3bff67e5.chunk.js",
+    "index.html": "/skypey/index.html",
+    "main.bfde5fea.css.map": "/skypey/static/css/main.bfde5fea.css.map",
+    "main.2d3ab647.js.map": "/skypey/static/js/main.2d3ab647.js.map",
+    "787.3bff67e5.chunk.js.map": "/skypey/static/js/787.3bff67e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bfde5fea.css",
-    "static/js/main.27364615.js"
+    "static/js/main.2d3ab647.js"
   ]
 }
