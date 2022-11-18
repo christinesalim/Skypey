@@ -9,8 +9,12 @@ import MessageInput from './MessageInput';
 
 const ChatWindow = ({ activeUserId }) => {
   const state = store.getState();
+  //Get contact information for the active user selected
   const activeUser = state.contacts[activeUserId];
+
+  //Get messages of the active user selected
   const activeMsgs = state.messages[activeUserId];
+  
   const { typing } = state; 
 
   return (

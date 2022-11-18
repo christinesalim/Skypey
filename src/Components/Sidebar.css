@@ -1,5 +1,5 @@
 .Sidebar {
-  width: 80px; /* just wide enough to display profile img*/
+  width: 90px; /* just wide enough to display profile img*/
   background-color: rgba(32, 32, 35, 1);
   height: 100%;
   border-right: 1px solid rgba(189, 189, 192, 0.1);

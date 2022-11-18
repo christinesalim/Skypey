@@ -6,11 +6,8 @@
 }
 
 .User:hover {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.8);
   cursor: pointer;
-}
-
-.User__closeIcon {
 }
 
 .User__pic {
@@ -24,8 +21,8 @@
 
 .User__closeIcon {
   position: absolute;
-  top: 2px;
-  right: 5px;
+  top: 0px;
+  right: 3px;
 }
 
 @media (min-width: 576px) {

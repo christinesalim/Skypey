@@ -17,6 +17,8 @@ function fancyLog() {
 }
 
 render();
+
+//Update the app rendering whenever state in Redux store changes
 store.subscribe(render);
 
 // If you want to start measuring performance in your app, pass a function

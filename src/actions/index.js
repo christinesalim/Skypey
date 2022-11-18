@@ -7,6 +7,8 @@ import {
   DELETE_MESSAGE,
  } from "../constants/action-types";
 
+//Action creators to create actions to dispatch to the reducers
+
 export const setActiveUserId = id => ({
   type: SET_ACTIVE_USER_ID,
   payload: id,
