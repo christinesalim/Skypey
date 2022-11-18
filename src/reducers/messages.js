@@ -2,7 +2,7 @@ import _ from "lodash";
 import { DELETE_MESSAGE, SEND_MESSAGE } from "../constants/action-types";
 import { getMessages } from "../static-data";
 
-
+//The getMessages() function returns a list of 10 fake messages for the application
 const messagesReducer = (state = getMessages(10), action) => {
   
   switch(action.type){
