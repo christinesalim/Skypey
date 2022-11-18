@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Skipey/static/css/main.bfde5fea.css",
+    "main.js": "/Skipey/static/js/main.6bcbdda5.js",
+    "static/js/787.3bff67e5.chunk.js": "/Skipey/static/js/787.3bff67e5.chunk.js",
+    "index.html": "/Skipey/index.html",
+    "main.bfde5fea.css.map": "/Skipey/static/css/main.bfde5fea.css.map",
+    "main.6bcbdda5.js.map": "/Skipey/static/js/main.6bcbdda5.js.map",
+    "787.3bff67e5.chunk.js.map": "/Skipey/static/js/787.3bff67e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfde5fea.css",
+    "static/js/main.6bcbdda5.js"
+  ]
+}
