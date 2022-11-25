@@ -17,6 +17,9 @@ const MessageInput = ({ value }) => {
     e.preventDefault(); //to prevent page reload
     //get the message typed and active user who typed it
     const { typing, activeUserId, activeChatId } = state;
+
+    //The sendMessage action creator results in the message being
+    //added to the list of messages for the active user
     store.dispatch(sendMessage(typing, activeUserId, activeChatId));
    
   }
